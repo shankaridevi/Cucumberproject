@@ -475,6 +475,9 @@ package org.utilities;
 		enter.sendKeys(enter2);
 			
 		}
+	public static void closeing() {
+		driver.close();
+	}
 	}
 	
 
