@@ -1,3 +1,4 @@
+
 package org.utilities;
 
 
@@ -477,6 +478,7 @@ package org.utilities;
 		}
 	public static void closeing() {
 		driver.close();
+		System.out.println("close");
 	}
 	}
 	
